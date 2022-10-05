@@ -41,6 +41,7 @@ exports.scss = scss;
 exports.js = js;
 exports.img = img;
 exports.fonts = fonts;
+exports.clear = clear;
 
 // сборка
 exports.default = app.isProd ? build : dev;
